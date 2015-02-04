@@ -39,6 +39,23 @@ alias wp='cd /home/jesuslc/workspace/wordpress/'
 ### Saber los procesos que consumen mas memoria
 `ps aux --width 30 --sort -rss | head`
 
+### Renombrar todas las fotos con la fecha
+`for i in *jpg; do jhead -n%Y-%m-%d-%f $i; done`
+
+## Búsquedas
+
+###Encontrar imágenes de más de 100kb
+`find . -type f -size +100k -name '*.jpg'`
+
+
+
+## CURL
+
+### Enviarn HTTP POST
+`curl https://api.faker.com/v1/customers -i -XPOST -H 'Content-Type: application/json' -d '{"firstName":"Justin", "lastName":"Bieber"}'`
+
+
+
 
 
 
