@@ -52,7 +52,7 @@ alias wp='cd /home/jesuslc/workspace/wordpress/'
 ## CURL
 
 ### Enviarn HTTP POST
-`curl https://api.faker.com/v1/customers -i -XPOST -H 'Content-Type: application/json' -d '{"firstName":"Justin", "lastName":"Bieber"}'`
+`curl https://api.faker.com/v1/customers -i -XPOST -H 'Content-Type: application/json' -d '{"firstName":"Walter", "lastName":"White"}'`
 
 
 ## Screen
