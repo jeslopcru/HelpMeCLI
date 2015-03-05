@@ -58,11 +58,14 @@ alias wp='cd /home/jesuslc/workspace/wordpress/'
 ## Screen
 
 ### Como ejecutar comandos dentro de screen
+
 Pulsar Control+A (las dos teclas simultaneamente, en minisculas) y despues el comando que queramos
 
-#### Control+A k Matar el screen actual
+### Matar el screen actual
+`Control+A k`
 
-#### Control+A d Minimizar el screen actual
+### Minimizar el screen actual
+`Control+A d `
 
 ### Crear un screen con nombre
 `screen -S foobar`
