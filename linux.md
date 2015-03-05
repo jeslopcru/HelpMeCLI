@@ -55,7 +55,23 @@ alias wp='cd /home/jesuslc/workspace/wordpress/'
 `curl https://api.faker.com/v1/customers -i -XPOST -H 'Content-Type: application/json' -d '{"firstName":"Justin", "lastName":"Bieber"}'`
 
 
+## Screen
 
+### Como ejecutar comandos dentro de screen
+Pulsar Control+A (las dos teclas simultaneamente, en minisculas) y despues el comando que queramos
+
+#### Control+A k Matar el screen actual
+
+#### Control+A d Minimizar el screen actual
+
+### Crear un screen con nombre
+`screen -S foobar`
+
+### Reabrir un screen previo
+`screen -r foobar`
+
+### Listar todos los screen creados
+`screen -ls`
 
 
 
